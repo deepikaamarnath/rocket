@@ -1,0 +1,25 @@
+body{
+	background-color: grey;
+}
+
+.cool{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	transition: background-color 1s;
+
+}
+
+.cool.red{
+	background-color: red;
+}
+
+a.button{
+	display: inline-block;
+	background-color: #19a3b6;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	color: white;
+}

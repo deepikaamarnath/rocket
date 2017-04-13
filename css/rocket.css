@@ -1,0 +1,146 @@
+body{
+	font-family: sans-serif;
+}
+
+.left{
+	background-color: #7976a8;
+	position: fixed;
+	width: 50%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+
+}
+
+.right{
+	background-color: #ce8b98;
+	position: fixed;
+	width: 50%;
+	height: 100%;
+	top:0;
+	right: 0;
+}
+
+.box{
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+a.button{
+	display: inline-block;
+	background-color: #19a3b6;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	color: white;
+}
+.ground{
+	position: absolute;
+	background-color: #19a3b6;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+}
+
+.rocket{
+	position: absolute;
+	left: 50%;
+	height: 250px;
+	width: 150px;
+	bottom: 15px;
+	margin-left: -70px;
+	background: url('../img/rocket.png') no-repeat ;
+	transition: bottom 10000ms;
+}
+
+.body-state2 .rocket{
+	background-image: url('../img/rocket2.png');
+	bottom: 15px;
+}
+.body-state3 .rocket, 
+.body-state4 .rocket
+{
+	background-image: url('../img/rocket.png');
+}
+.body-state5 .rocket{
+	background-image: url('../img/rocket5.png');
+}
+
+.body-state1 .rocket{
+	transition: none;
+	background-image: url('../img/rocket1.png');
+}
+
+.nervous{
+	position: absolute;
+	background: url('../img/nervous.png') no-repeat ;
+	bottom: 200px;
+	left: 35%;
+	height: 250px;
+	width: 300px;
+	display: none;
+}
+
+.cantwait{
+	position: absolute;
+	background: url('../img/cantwait.png') no-repeat ;
+	bottom: 200px;
+	left: 35%;
+	height: 250px;
+	width: 300px;
+	display: none;
+}
+
+.yaay{
+	position: absolute;
+	background: url('../img/yaay.png') no-repeat ;
+	bottom: 200px;
+	left: 35%;
+	height: 250px;
+	width: 300px;
+	display: none;
+}
+
+.nervous.show{
+	display: block;
+}
+
+.cantwait.show{
+	display: block;
+}
+
+.yaay.show{
+	display: block;
+}
+
+
+
+
+
+
+.body-state3 .rocket,
+.body-state4 .rocket{
+	bottom: 1000px;
+}
+
+.state1, .state2, .state3, .state4, .state5{
+	display: none;
+}
+
+.body-state1 .state1{display: block}
+.body-state2 .state2{display: block}
+.body-state3 .state3{display: block}
+.body-state4 .state4{display: block}
+.body-state5 .state5{display: block}
+
+
+a{
+
+}
+
+a.button{
+
+}
